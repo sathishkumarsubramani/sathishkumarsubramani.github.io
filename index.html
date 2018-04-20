@@ -37,7 +37,10 @@
     <!--( c ) Javascript For Browser Support Issues -->
     
     <script type="text/javascript" src="library/modernizr/modernizr.js"></script>
-   
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     
 </head>
 <body>
@@ -946,7 +949,7 @@
                 
                 <div class="contact-form col-sm-11 clearfix">
                     
-                    <form action="#" id="contactForm" method="post" name="contactForm">
+                    <form action="http://www.compiledtech.com/demos/preview/insta/preview/php/contact.php" id="contactForm" method="post" name="contactForm">
                         <fieldset>
                             <div class="col-sm-12">
                                 <input id="name" name="name" placeholder="Your Name*" type="text" value="">
@@ -1087,7 +1090,7 @@
     <script type="text/javascript" src="library/popup/jquery.popup.min.js"></script>
     <script type="text/javascript" src="library/owl-carousel/owl.carousel.min.js"></script>
     
-    
+    <script type="text/javascript" src="library/gMap/jquery.gmap.min.js"></script>
     <script type="text/javascript" src="library/buggyfill/viewport-units-buggyfill.hacks.js"></script>
     <script type="text/javascript" src="library/buggyfill/viewport-units-buggyfill.js"></script>
     <script>
